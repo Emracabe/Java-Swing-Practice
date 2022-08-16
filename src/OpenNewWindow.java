@@ -11,7 +11,6 @@ public class OpenNewWindow {
         button.setFocusable(false);
         button.setBounds(110, 200, 250, 50);
 
-
         JFrame mainWindow = new JFrame("Main Window");
         mainWindow.add(button);
         mainWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
