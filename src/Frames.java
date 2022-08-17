@@ -1,15 +1,12 @@
-import javax.swing.*;
-import java.awt.*;
-
 public class Frames {
     public static void main(String[] args) {
 
         // JFrame = a GUI window to add components to
 
-        // JFrameChild class extends the JFrame class
-        // To understand this code of line visit JFrameChild.java
+        // FrameChild class extends the JFrame class
+        // To understand this code of line visit FrameChild.java
         // And know the OOP Concept, especially inheritance
-        JFrameChild jframe = new JFrameChild();
+        FrameChild jframe = new FrameChild();
 
 //        JFrame frame = new JFrame(); // creates a JFrame window
 //        frame.setTitle("Emmar's JFrame"); // sets title of Frames

@@ -1,14 +1,12 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
-public class JFrameForButton extends JFrame {
+public class FrameForButton extends JFrame {
 
     private JButton button;
     private JLabel label;
 
-    JFrameForButton() {
+    FrameForButton() {
         ImageIcon icon = new ImageIcon("sample.png");
         ImageIcon icon2 = new ImageIcon("logo.jpeg");
 

@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class JLayeredPanes {
+public class LayeredPanes {
     public static void main(String[] args) {
         // JLayeredPane = Swing container that provides a
         //                third dimension for positioning components
@@ -33,7 +33,7 @@ public class JLayeredPanes {
 
         JFrame frame = new JFrame("JLayeredPane");
 
-        // Adding the JLayeredPanes
+        // Adding the LayeredPanes
         frame.add(layeredPane);
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

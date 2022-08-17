@@ -1,9 +1,9 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class JFrameChild extends JFrame {
+public class FrameChild extends JFrame {
 
-    JFrameChild() {
+    FrameChild() {
         this.setTitle("Emmar's JFrame"); // sets title of Frames
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // exit out of application
         this.setResizable(false); // prevent Frames from being resized
