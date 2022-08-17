@@ -5,7 +5,7 @@ public class Panels {
     public static void main(String[] args) {
         // JPanel = a GUI component that functions as a container to hold other components
 
-        ImageIcon icon = new ImageIcon("like.png");
+        ImageIcon icon = new ImageIcon("./assets/public/like.png");
 
         JLabel label = new JLabel();
         label.setText("Hi");

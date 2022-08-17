@@ -7,9 +7,9 @@ public class RadioButtons {
 //        JRadioButton = One or more buttons in a grouping in which only 1 may be selected per group
 
         // Creating the icons for every radiobutton
-        ImageIcon pizzaIcon = new ImageIcon("pizza.png");
-        ImageIcon hamburgerIcon = new ImageIcon("hamburger.png");
-        ImageIcon hotdogIcon = new ImageIcon("hotdog.png");
+        ImageIcon pizzaIcon = new ImageIcon("./assets/public/pizza.png");
+        ImageIcon hamburgerIcon = new ImageIcon("./assets/public/hamburger.png");
+        ImageIcon hotdogIcon = new ImageIcon("./assets/public/hotdog.png");
 
         // Creating the buttons
         JRadioButton pizzaButton = new JRadioButton("pizza");

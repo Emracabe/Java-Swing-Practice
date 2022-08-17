@@ -26,7 +26,7 @@ public class OptionPanes {
 //        JOptionPane.showMessageDialog(null, name + "\n" + message, "User", JOptionPane.INFORMATION_MESSAGE);
 
         String[] responses = {"No, you're awesome!", "Thank you!", "Blush*"};
-        ImageIcon icon = new ImageIcon("like.png");
+        ImageIcon icon = new ImageIcon("./assets/public/like.png");
         JOptionPane.showOptionDialog(
                 null,
                 "You are awesome",
