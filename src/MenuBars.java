@@ -53,7 +53,6 @@ public class MenuBars {
         saveItem.setMnemonic(KeyEvent.VK_S); // S for save
         exitItem.setMnemonic(KeyEvent.VK_E); // E for exit
 
-
         fileMenu.add(loadItem);
         fileMenu.add(saveItem);
         fileMenu.add(exitItem);
