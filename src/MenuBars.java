@@ -25,6 +25,14 @@ public class MenuBars {
         JMenuItem saveItem = new JMenuItem("Save");
         JMenuItem exitItem = new JMenuItem("Exit");
 
+        ImageIcon loadIcon = new ImageIcon("./assets/public/load.png");
+        ImageIcon saveIcon = new ImageIcon("./assets/public/save.png");
+        ImageIcon exitIcon = new ImageIcon("./assets/public/exit.png");
+
+        loadItem.setIcon(loadIcon);
+        saveItem.setIcon(saveIcon);
+        exitItem.setIcon(exitIcon);
+
         loadItem.addActionListener(l -> {
             System.out.println("*beep *boop you loaded a file");
         });
