@@ -1,8 +1,7 @@
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.KeyEvent;
 
-public class KeyListener {
+public class KeyListeners {
     public static void main(String[] args) {
 
         ImageIcon labelIcon = new ImageIcon("./assets/public/load.png");
